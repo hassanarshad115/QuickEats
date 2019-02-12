@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuickEats</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+<!--
+    <string name="title_activity_dashboard_d">My Orders</string>
+-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Quick Eats</string>
+    <string name="nav_header_subtitle">Quickeats.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+<!--
+    <string name="action_settings">Settings</string>
+-->
+    <string-array name="months_array">
+        <item>January</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>February</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

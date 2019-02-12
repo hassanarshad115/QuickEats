@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboaordActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/dashbaordToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E27900"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="#fff">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:textColor="#fff"
+               android:layout_height="wrap_content"
+               android:text="My Order"
+               android:textStyle="bold"
+               android:layout_marginTop="10dp"
+               android:textSize="22dp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Restaurant"
+                   android:textColor="#fff"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_weight="1"
+                   android:text="Rider Name"
+                   android:textColor="#fff"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_weight="1"
+                   android:text="Payment"
+                   android:textColor="#fff"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_weight="1"
+                   android:text="Status"
+                   android:textColor="#fff"
+                   android:textStyle="bold" />
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

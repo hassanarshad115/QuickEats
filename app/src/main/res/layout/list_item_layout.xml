@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="17dp"
+    android:layout_margin="8dp"
+    android:background="#fff"
+
+    android:orientation="vertical">
+
+    <!--<ImageView
+        android:id="@+id/imginDiscoverResource"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/star" />-->
+
+    <TextView
+        android:id="@+id/txtinDiscoverResource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="text viewe into list item of discover"
+        android:textSize="10dp" />
+<!--    <Button
+        android:id="@+id/btn"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="5dp"
+        android:text="11 Cources"
+        android:layout_gravity="right"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button_second"/>-->
+</LinearLayout>
